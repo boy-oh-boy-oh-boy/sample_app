@@ -1,0 +1,19 @@
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-25 00:43:43) [GET]
+
+ActionController::RoutingError (No route matches "/users" with {:method=>:get}):
+  <internal:prelude>:8:in `synchronize'
+  c:/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  c:/Ruby191/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  c:/Ruby191/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing Rails::InfoController#properties (for 127.0.0.1 at 2010-07-25 00:44:00) [GET]
+  [4;36;1mSQL (1.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Completed in 589ms (View: 36, DB: 1) | 200 OK [http://localhost/rails/info/properties]
