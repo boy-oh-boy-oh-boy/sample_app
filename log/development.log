@@ -17,3 +17,18 @@ Processing Rails::InfoController#properties (for 127.0.0.1 at 2010-07-25 00:44:0
  WHERE type = 'table' AND NOT name = 'sqlite_sequence'
 [0m
 Completed in 589ms (View: 36, DB: 1) | 200 OK [http://localhost/rails/info/properties]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-07-25 01:13:50) [GET]
+Rendering pages/home
+Completed in 27ms (View: 26, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-07-25 15:00:55) [GET]
+Rendering pages/home
+Completed in 48ms (View: 47, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-07-25 15:03:11) [GET]
+Rendering pages/home
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/home]
